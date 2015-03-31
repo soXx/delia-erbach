@@ -116,6 +116,7 @@ nav.navbar.fixed-to-top{
 .navbar-logo{
 	height: 50px;
 	float: left;
+	color: #FFFFFF;
 }
 
 .navbar-default{
@@ -443,6 +444,11 @@ header .carousel-indicators li {
 	transition: all 0.3s;
 }
 */
+
+.kontakt .icon-whatsapp{
+	height: 47px;
+	margin-right: -85px;
+}
 
 
 .kontakt a:hover{
