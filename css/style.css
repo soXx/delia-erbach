@@ -80,12 +80,12 @@ header h1,
 	color: #593c6e;
 }
 
-.features p{
+.features p, .purchase p{
 	color: #FFFFFF;
 }
 
 /*---- Background ----*/
-.features,
+.features, .purchase,
 .detail .carousel-indicators .active {
 	background: #593c6e;	
 }
@@ -115,6 +115,7 @@ nav.navbar.fixed-to-top{
 
 .navbar-logo{
 	height: 50px;
+	float: left;
 }
 
 .navbar-default{
@@ -170,6 +171,7 @@ header h1{
 	font-weight: 300;
 	font-size: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
+	white-space: nowrap;
 	
 	
 }
@@ -177,6 +179,9 @@ header h1{
 header mark{
 	color: #593c6e;
 	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 header p.lead{
@@ -232,7 +237,11 @@ header .carousel-indicators li {
 .purchase{
 	overflow: hidden;
 	padding: 100px 0px 100px 0px;
-	min-height: 200px;
+	min-height: 200px; 
+}
+
+.purchase h1 {
+	color:#FFFFFF;
 }
 
 .purchase button.app-store{
@@ -386,6 +395,11 @@ header .carousel-indicators li {
 	
 }
 
+.features .icon-verladen{
+	height: 100px;
+	margin-top: -6px;
+}
+
 .features span.glyphicon, .features i{
 	margin-top: 3px;
 	color: #ffffff;
@@ -410,12 +424,26 @@ header .carousel-indicators li {
 	color: white;
 }
 
-.kontakt a {
-	margin-left: 10px;
+
+.kontakt a{
+	margin-left: 0px;
 	color: #FFF;
-	font-size: 5em;
+	font-size: 2em;
 	transition: all 0.3s;
 }
+
+/*
+.kontakt a.kontakt-mail {
+	color: #FFF;
+	transition: all 0.3s;
+}
+
+.kontakt a.kontakt-phone {
+	color: #FFF;
+	transition: all 0.3s;
+}
+*/
+
 
 .kontakt a:hover{
 	text-decoration: none;
